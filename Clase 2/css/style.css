@@ -1,0 +1,18 @@
+.caja1{
+    border: 5px solid;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    color: purple;
+
+}
+.caja2{
+    border: 5px solid;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    color:red;
+}
+
+h3{
+    color: darkgreen;
+    font-size: 50px
+}

@@ -1,0 +1,64 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.contenedor div{
+    box-sizing: border-box;
+    min-width: 150px;
+    padding: 20px;
+}
+
+.clone3{
+    color: black;
+    background-color: rgb(19, 196, 57);
+}
+
+.clone4{
+    color: black;
+    background-color: rgb(10, 133, 102);
+    text-align: justify;
+}
+
+.clone5{
+    color: black;
+    background-color: rgb(72, 14, 231);
+}
+
+.clone6{
+    color: black;
+    background-color: rgb(206, 66, 66);
+}
+
+.clone7{
+    color: black;
+    background-color: rgb(4, 0, 255);
+}
+
+.clone3, .clone4, .clone5, .clone6, .clone7 {
+    width: 100%;
+}
+
+@media (min-width:600px) {
+    .clone3 {
+        width: 25%;
+    }
+    .clone4 {
+        width: 75%;
+    }
+}
+
+@media (min-width: 800px){
+    .contenedor{
+        width: 800px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

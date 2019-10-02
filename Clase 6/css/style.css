@@ -1,0 +1,60 @@
+body{
+    font-size: 3em;
+
+}
+
+div [class*="bloque"]{
+    min-height: 200px;
+    
+    /*
+    flex-grow: 1 40%;
+    flex-shrink: 2 40%;
+
+    Flex es atajo y es equivalente a lo de arriba.
+    */
+    
+    flex: 1 2 40%
+
+}
+.bloque1{
+    color: blue;
+    background-color: rgb(22, 1, 1);
+    order: 2;
+
+}
+.bloque2{
+    color: green;
+    background-color: rgb(14, 6, 6);
+    order: 4;
+}
+.bloque3{
+    color: green;
+    background-color: rgb(20, 10, 10);
+    order: 3;
+}
+.bloque4{
+    color: rgb(8, 175, 226);
+    background-color: rgb(20, 12, 12);
+    order: 5;
+}
+.bloque5{
+    color: rgb(147, 156, 147);
+    background-color: rgb(12, 6, 6);
+    order: 1;
+}
+.bloque6{
+    color: rgb(223, 7, 158);
+    background-color: rgb(12, 7, 7);
+    order: 7;
+}
+.bloque7{
+    color: rgb(218, 226, 221);
+    background-color: rgb(19, 10, 10);
+    order: 6;
+}
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+
+    align-items: baseline
+}

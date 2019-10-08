@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contenedor{
+    margin: 0% auto;
+    flex: 1%;
+    max-width: 1200px;
+    display: inherit;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    align-items: inherit;
+    height: inherit;   
+}
+
+.divisor{
+    display: grid;
+    /*grid-template-rows: 150px 200px;
+    grid-template-columns: 200px 300px;
+    grid template filas y columnas
+    grid-template: 150px 200px / 200px 300px;*/
+    grid-template: 1fr/ 350px 1fr;
+}
+.marcas{
+    padding: 20px 30px;
+    color: white;
+    background-color: red;
+}
+.imagenLogo{
+max-width: 100%;
+}
+.ListaDeMarcas p:hover{
+    cursor: pointer;
+}
+.Mismarcas{
+    font-size: 20px;
+}
+.amigos{
+    display: block;
+}
+.amigos a{
+    display: flex;
+    margin: auto auto 20px  30px;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+
+.amigos a img{
+    width: 50%;
+    border-radius: 25%;
+    margin-right: 5px
+
+}
+
+.playlistamigos{
+    font-size: 20px;
+}
+.multimedia{
+    display: grid;
+    grid-template: 350px;   
+}
+.nombreDelVideo{
+    padding: 10px;
+    padding-top: 15px;
+
+}
+.nombreDelVideo p{
+    color: blue;
+    margin: 0%;
+    font-size: 15px;
+
+}
+.botones{
+    display: flex;
+}
+.agregar{
+    background-image: linear-gradient(to right, #f04f04,#f80808)
+}

@@ -68,7 +68,7 @@ max-width: 100%;
 
 }
 .nombreDelVideo p{
-    color: blue;
+    color: rgb(0, 0, 0);
     margin: 0%;
     font-size: 15px;
 
@@ -78,4 +78,85 @@ max-width: 100%;
 }
 .agregar{
     background-image: linear-gradient(to right, #f04f04,#f80808)
+}
+.agregar, .guardar, .compartir, .estilos, .disenios, .subestilos {
+    margin-right: 10px;
+}
+.agregar, .guardar, .compartir, .estilos, .disenios, .subestilos :hover{
+cursor: pointer;
+}
+.agregar, .guardar, .compartir, .estilos, .disenios, .subestilos :hover{
+background-color: darkgreen;
+border-radius: 20px;
+padding: 5px 15px
+}
+.subestilos{
+background-color: darkgreen;
+border-radius: 20px;
+padding: 5px 15px;
+}
+.comentarios{
+    display: grid;
+    grid-template: 300px / 350px 1fr;
+}
+.comentarios span{
+    display: flex;
+    justify-content: center;
+    font-size-adjust: initial;
+}
+.comentarios :hover{
+    cursor: default;
+}
+.nuevoComentario{
+    padding: 20px;
+}
+.nuevoComentario p{
+    margin-bottom: 20px;
+}
+.anadirComentario{
+display: flex;
+justify-content: start;
+align-content: center;
+}
+.anadirComentario img {
+    width: 50px;
+    border-radius: 25px 25px 15px 15px;
+    margin-right: 10px;
+}
+.anadirComentario input{
+    background-color: #f04f04;
+    width: 300px;
+    cursor: text;
+    border-bottom: 1px  solid   rgba(0, 0, 0, 0.2);
+}
+.anadirComentario input:hover{
+cursor: text;
+}
+.contenedorComentarios img{
+    width
+}
+.texto{
+    display: block;
+}
+.texto p{
+    margin: 0%;
+    font-weight: bold;
+    color: black;   
+}
+.texto span{
+    font-weight: 400;
+    color: rgba(6, 94, 21, 0.8)
+}
+.sugerencias .nombreSugerencias{
+    display: flex;
+    justify-items: start;
+}
+.sugerencias p{
+    padding: 20px 20px 10px 20px;
+}
+.sugerencias img{
+    width: 60%;
+}
+.sugerencias img:hover{
+    cursor: pointer;
 }
